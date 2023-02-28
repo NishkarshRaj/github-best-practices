@@ -15,6 +15,8 @@
 - Best Practices:
   - Setup ASDF
   - Setup Pre-Commit Hooks
+  - Protected Branches
   - Setup Security Policies
   - Setup Code Contribution Guidelines
   - Create PR and Issue Templates
+  - SLSA Setup: Provenance Signatures 
