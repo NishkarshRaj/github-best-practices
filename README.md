@@ -32,6 +32,10 @@
 
 - [x] Setup Code of Conduct
 
+- [ ] Changesets
+
+- [ ] Signed Commits and DCO Checks via GitHub Actions
+
 - [ ] Create PR and Issue Templates
 
 - [ ] SLSA Setup: Provenance Signatures
