@@ -20,9 +20,9 @@
 
 ##  Best Practices:
 
-- [ ] Setup ASDF
+- [x] Setup ASDF
 
-- [ ] Setup Pre-Commit Hooks
+- [x] Setup Pre-Commit Hooks
 
 - [x] Protected Branches
 
