@@ -26,9 +26,11 @@
 
 - [x] Protected Branches
 
-- [ ] Setup Security Policies
+- [x] Setup Security Policies
 
-- [ ] Setup Code Contribution Guidelines
+- [x] Setup Code Contribution Guidelines
+
+- [x] Setup Code of Conduct
 
 - [ ] Create PR and Issue Templates
 
