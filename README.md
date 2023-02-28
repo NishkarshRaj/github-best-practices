@@ -1,22 +1,39 @@
-- GitHub Advanced Security
-  - Code Scanning
-  - Dependabot (Security Vulnerability + Versioning Upgrades)
-  - Secret Scanning
-  - Private vulnerability reporting
+## GitHub Advanced Security
   
-- Continuous Integration + Continuous Deployment
-  - GitHub Actions
-  - GitHub Packages
+- [x] Code Scanning
+- [x] Dependabot (Security Vulnerability + Versioning Upgrades)
+- [x] Secret Scanning
+- [x] Private vulnerability reporting
   
-- AI Pair Programmer: GitHub Co-Pilot
+## Continuous Integration + Continuous Deployment
 
-- VSCode On Cloud: GitHub Codespaces
+- [ ] GitHub Actions
+- [ ] GitHub Packages
+  
+## AI Pair Programmer
 
-- Best Practices:
-  - Setup ASDF
-  - Setup Pre-Commit Hooks
-  - Protected Branches
-  - Setup Security Policies
-  - Setup Code Contribution Guidelines
-  - Create PR and Issue Templates
-  - SLSA Setup: Provenance Signatures 
+- [ ] GitHub Co-Pilot
+
+## VSCode On Cloud
+
+- [ ] GitHub Codespaces
+
+##  Best Practices:
+  
+- [ ] Setup ASDF
+
+- [ ] Setup Pre-Commit Hooks
+
+- [x] Protected Branches
+
+- [ ] Setup Security Policies
+
+- [ ] Setup Code Contribution Guidelines
+
+- [ ] Create PR and Issue Templates
+
+- [ ] SLSA Setup: Provenance Signatures
+
+- [x] Setup Project Discussions
+
+- [x] Setup Sponsorships for Funding
