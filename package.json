@@ -1,6 +1,10 @@
 {
   "name": "nish",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NishkarshRaj/github-best-practices.git"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

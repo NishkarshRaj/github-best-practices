@@ -7,8 +7,8 @@
   
 ## Continuous Integration + Continuous Deployment
 
-- [ ] GitHub Actions
-- [ ] GitHub Packages
+- [x] GitHub Actions
+- [x] GitHub Packages (npm login --scope=@nishkarshraj --auth-type=legacy --registry=https://npm.pkg.github.com/)
   
 ## AI Pair Programmer
 
