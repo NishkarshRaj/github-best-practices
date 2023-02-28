@@ -1,15 +1,15 @@
 ## GitHub Advanced Security
-  
+
 - [x] Code Scanning
 - [x] Dependabot (Security Vulnerability + Versioning Upgrades)
 - [x] Secret Scanning
 - [x] Private vulnerability reporting
-  
+
 ## Continuous Integration + Continuous Deployment
 
 - [x] GitHub Actions
 - [x] GitHub Packages (npm login --scope=@nishkarshraj --auth-type=legacy --registry=https://npm.pkg.github.com/)
-  
+
 ## AI Pair Programmer
 
 - [ ] GitHub Co-Pilot
@@ -19,7 +19,7 @@
 - [ ] GitHub Codespaces
 
 ##  Best Practices:
-  
+
 - [ ] Setup ASDF
 
 - [ ] Setup Pre-Commit Hooks
