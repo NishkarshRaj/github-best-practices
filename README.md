@@ -32,9 +32,11 @@
 
 - [x] Setup Code of Conduct
 
-- [ ] Changesets
+- [x] Changesets
 
 - [ ] Signed Commits and DCO Checks via GitHub Actions
+
+- [ ] RenovateBot
 
 - [ ] Create PR and Issue Templates
 
