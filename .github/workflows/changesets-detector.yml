@@ -1,0 +1,43 @@
+name: Changeset Detector for PRs
+
+on: pull_request
+
+jobs:
+  build:
+
+    # Need to test this on the matrix of all 3 major platforms and supported Node Versions
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout Repository to Runner
+        uses: actions/checkout@v3
+
+      - name: Setup Node Environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Changeset Detector
+        run: |
+          npm ci
+          npm i -g yarn
+          # Assuming changesets are mandatory for PRs
+          cp -rf .changeset /tmp/.changeset
+          git stash
+          git fetch origin main
+          git checkout main
+          # Diff returns 0 if no difference
+          # Diff returns 1 if difference b/w directories
+          # CI exits whenever exit code $? is non-zero
+          set +e # Disable exit on error
+          diff .changeset /tmp/.changeset
+          flag=$?
+          set -e # Enable exit on error
+          if [ $flag -ne 1 ]
+          then
+            exit 1
+          else
+            exit 0
+          fi
+          
