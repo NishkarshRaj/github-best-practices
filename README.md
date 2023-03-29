@@ -34,6 +34,8 @@
 
 - [x] Changesets
 
+- [ ] MkDocs
+
 - [ ] Signed Commits and DCO Checks via GitHub Actions
 
 - [ ] RenovateBot
