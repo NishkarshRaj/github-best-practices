@@ -24,10 +24,12 @@ jobs:
           yarn changeset version
       
       - name: GitHub Configuration setup
+        run: |
           git config --local user.name ${{ github.actor }}
           git config --local user.email "nishkarshraj000@gmail.com"
 
       - name: Stage Git changes    
+        run: |
           git add .
           git commit -m -s "[ci skip] Change Log upgraded & Changesets cleaned"
       
