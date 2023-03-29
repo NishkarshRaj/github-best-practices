@@ -27,6 +27,7 @@ jobs:
       - name: Changeset Detector
         run: |
           cp -rf .changeset /tmp/.changeset
+          git stash
           git fetch origin main
           git checkout main
 
