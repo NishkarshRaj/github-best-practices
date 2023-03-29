@@ -31,7 +31,7 @@ jobs:
       - name: Stage Git changes    
         run: |
           git add .
-          git commit -m -s "[ci skip] Change Log upgraded & Changesets cleaned"
+          git commit -s -m "[ci skip] Change Log upgraded & Changesets cleaned"
       
       - name: Push changes
         uses: ad-m/github-push-action@master
