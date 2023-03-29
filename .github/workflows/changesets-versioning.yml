@@ -28,15 +28,9 @@ jobs:
           git config --local user.name ${{ github.actor }}
           git config --local user.email "nishkarshraj000@gmail.com"
 
-      - name: Stage Git changes    
+      # Will fail on main because direct commits are not allowed without PR
+      - name: Push to GitHub  
         run: |
           git add .
           git commit -s -m "[ci skip] Change Log upgraded & Changesets cleaned"
-      
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
-
-
+          git push -u origin ${{ github.ref }}
